@@ -10,7 +10,8 @@
   display: flex;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
+/* Regole immagine principale */
+
 .container {
   position: relative;
   width: 700px;
@@ -19,7 +20,7 @@
   margin-top: 50px;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   width: 500px;
   display: none;
@@ -39,12 +40,12 @@
   color: white;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
+/* Regole pulsati avanti e indietro*/
+
 .prev,
 .next {
   cursor: pointer;
@@ -64,20 +65,18 @@
   top: 10%;
 }
 
-/* Position the "next button" to the right */
-
 .next {
   top: 95%;
   
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Container for image text */
+/* Regole descrizione immagine */
+
 .caption-container {
   bottom: 30%;
   right: 30%;
@@ -94,14 +93,12 @@
   clear: both;
 }
 
-/* Six columns side by side */
 
 .column img {
   height: 97px;
   object-fit:cover;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
